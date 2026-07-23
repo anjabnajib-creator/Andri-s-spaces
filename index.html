@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>☕ Andri's Space</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="bg"></div>
+
+<div class="container">
+
+    <!-- Landing Page -->
+    <section id="landing" class="card active">
+
+        <h1>☕ Andri's Space</h1>
+
+        <p class="subtitle">
+            Made with a little courage by Jabun.
+        </p>
+
+        <div class="welcome">
+
+            <h2>Halo Andri 👋</h2>
+
+            <p>
+                Ini bukan Google Form.
+            </p>
+
+            <p>
+                Ini cuma sesuatu yang dibuat khusus buat kamu.
+            </p>
+
+            <p>
+                Santai aja. Gak ada jawaban yang benar atau salah.
+            </p>
+
+            <p>
+                Cuma pengen kenal kamu sedikit lebih dekat.
+            </p>
+
+        </div>
+
+        <button id="startBtn" class="primary">
+            Let's Begin →
+        </button>
+
+    </section>
+
+    <!-- Quiz -->
+    <section id="quiz" class="card">
+
+        <div class="progress-area">
+
+            <div class="progress-info">
+
+                <span id="questionNumber">
+                    1 / 20
+                </span>
+
+                <span id="percent">
+                    5%
+                </span>
+
+            </div>
+
+            <div class="progress">
+
+                <div id="progressBar"></div>
+
+            </div>
+
+        </div>
+
+        <h2 id="questionTitle"></h2>
+
+        <textarea
+            id="answer"
+            rows="8"
+            placeholder="Tulis jawabanmu di sini..."
+        ></textarea>
+
+        <div class="buttons">
+
+            <button id="prevBtn" class="secondary">
+                ← Previous
+            </button>
+
+            <button id="nextBtn" class="primary">
+                Next →
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Thank You -->
+    <section id="finish" class="card">
+
+        <h1>
+            ❤️ Thank You Andri
+        </h1>
+
+        <p>
+            Makasih udah meluangkan waktu buat isi semuanya.
+        </p>
+
+        <button id="copyBtn" class="primary">
+            📋 Copy Jawaban
+        </button>
+
+        <button id="waBtn" class="secondary">
+            📲 Kirim ke WhatsApp Jabun
+        </button>
+
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
